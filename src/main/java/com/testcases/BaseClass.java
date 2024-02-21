@@ -76,7 +76,6 @@ public class BaseClass extends Driver {
 	 */
 	public static void clickElement(WebElement element) {
 		waitForElementToBeClickable(Duration.ofSeconds(20), element);
-		
 		try {
 			String text = element.getText();
 			element.click();
@@ -88,11 +87,11 @@ public class BaseClass extends Driver {
 	}
 
 	public static void clickbyjavascript(WebElement element) {
-		waitForElementToBeClickable(Duration.ofSeconds(20), element);
-		JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
-		js.executeScript("arguments[0].click();", element);
+		waitForElementToBeClickable(Duration.ofSeconds(20), element);		
 		try {
 			String text = element.getText();
+			JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
+			js.executeScript("arguments[0].click();", element);
 			if (!text.isEmpty()) {
 				ExtentLogger.info(text + " is clicked");
 			}
@@ -313,7 +312,7 @@ public class BaseClass extends Driver {
 	 * @param seconds Mention seconds
 	 */
 	public static void waitForElementToBeClickable(Duration seconds, WebElement element) {
-		WebDriverWait wait = new WebDriverWait(driver, seconds);
+		WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), seconds);
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
 
@@ -323,7 +322,7 @@ public class BaseClass extends Driver {
 	 * @param seconds Mention Seconds
 	 */
 	public static void waitForElementToBeDisappear(Duration seconds, By element) {
-		WebDriverWait wait = new WebDriverWait(driver, seconds);
+		WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), seconds);
 
 		wait.until(ExpectedConditions.invisibilityOfElementLocated(element));
 	}
@@ -334,7 +333,7 @@ public class BaseClass extends Driver {
 	 * @param seconds mention seconds
 	 */
 	public static void waitForElementToBeAppear(Duration seconds, WebElement element) {
-		WebDriverWait wait = new WebDriverWait(driver, seconds);
+		WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), seconds);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 
