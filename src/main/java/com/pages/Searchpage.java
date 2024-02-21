@@ -20,7 +20,7 @@ public static void searchflow() {
 
 	sendKeys(element(pw), "impiger#123");
 
-	clickElement(element(submit));
+	clickbyjavascript(element(submit));
 
 	sleeptime();	
 
@@ -30,7 +30,7 @@ public static void searchflow() {
 
 	sendkeywithbackspace(element(inputField));
 	
-	clickElement(element(search));
+	clickbyjavascript(element(search));
 
 	RandomDropDown();
 

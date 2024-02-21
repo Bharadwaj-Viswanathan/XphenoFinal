@@ -75,7 +75,7 @@ public class BaseClass extends Driver {
 	 * @throws InterruptedException
 	 */
 	public static void clickElement(WebElement element) {
-		waitForElementToBeClickable(Duration.ofSeconds(10), element);
+		waitForElementToBeClickable(Duration.ofSeconds(20), element);
 		
 		try {
 			String text = element.getText();

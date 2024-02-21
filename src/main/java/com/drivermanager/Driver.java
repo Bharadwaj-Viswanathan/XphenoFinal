@@ -66,7 +66,7 @@ public class Driver{
 		System.out.println("Before Test Thread ID: "+Thread.currentThread().getId());
 		DriverManager.getDriver().manage().window().maximize();
 		DriverManager.getDriver().get(props.getProperty("Xpheno"));
-		DriverManager.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		DriverManager.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 	}
 
 	@AfterMethod
