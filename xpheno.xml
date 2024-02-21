@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="E-commerce portal automation" parallel="methods"
+	thread-count="20">
+	<listeners>
+		<listener class-name="com.listeners.ListernerClass"></listener>
+		<listener class-name="com.listeners.AnnotationsTransformer"></listener>
+	</listeners>
+
+	<test name="MyTestCase">
+		<parameter name="browsername" value="chrome"></parameter>
+		<classes>
+			<class name="com.testcases.XphenoSearch">
+				<methods>
+					<include name="xphenoSearch1"/>
+					<include name="xphenoSearch2"/>
+					<include name="xphenoSearch3"/>
+					<include name="xphenoSearch4"/>
+					<include name="xphenoSearch5"/>
+					<include name="xphenoSearch6"/>
+					<include name="xphenoSearch7"/>
+					<include name="xphenoSearch8"/>
+					<include name="xphenoSearch9"/>
+					<include name="xphenoSearch10"/>
+					<include name="xphenoSearch11"/>
+					<include name="xphenoSearch12"/>
+					<include name="xphenoSearch13"/>
+					<include name="xphenoSearch14"/>
+					<include name="xphenoSearch15"/>
+					<include name="xphenoSearch16"/>
+					<include name="xphenoSearch17"/>
+					<include name="xphenoSearch18"/>
+					<include name="xphenoSearch19"/>
+					<include name="xphenoSearch20"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
