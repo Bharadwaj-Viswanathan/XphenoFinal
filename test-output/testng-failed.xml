@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="20" parallel="methods" name="Failed suite [E-commerce portal automation]" guice-stage="DEVELOPMENT">
+<suite thread-count="20" parallel="methods" name="Failed suite [Xpheno]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.listeners.ListernerClass"/>
     <listener class-name="com.listeners.AnnotationsTransformer"/>
@@ -11,12 +11,10 @@
       <class name="com.testcases.XphenoSearch">
         <methods>
           <include name="closebrowser"/>
-          <include name="xphenoSearch20"/>
-          <include name="xphenoSearch8"/>
-          <include name="xphenoSearch17"/>
+          <include name="xphenoSearch1"/>
           <include name="invokeApp"/>
         </methods>
       </class> <!-- com.testcases.XphenoSearch -->
     </classes>
   </test> <!-- MyTestCase(failed) -->
-</suite> <!-- Failed suite [E-commerce portal automation] -->
+</suite> <!-- Failed suite [Xpheno] -->

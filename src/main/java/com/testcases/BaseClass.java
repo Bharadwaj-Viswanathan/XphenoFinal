@@ -611,4 +611,10 @@ public class BaseClass extends Driver {
 		element.sendKeys(Keys.BACK_SPACE);
 	}
 
+	public static void browserdetails() {
+		ExtentReport.extent.setSystemInfo("Browser Name", browserName);
+		ExtentReport.extent.setSystemInfo("Browser Version", browserVersion);
+		sleeptime3sec();
+	}
+	
 }

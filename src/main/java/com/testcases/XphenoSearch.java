@@ -3,11 +3,13 @@ package com.testcases;
 import org.testng.annotations.Test;
 
 import com.pages.Searchpage;
+import com.reports.ExtentReport;
 
 public class XphenoSearch extends BaseClass {
 
 	@Test
 	public void xphenoSearch1() {
+		browserdetails();
 		Searchpage.searchflow();
 	}
 

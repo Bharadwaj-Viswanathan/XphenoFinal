@@ -70,6 +70,9 @@ public class ListernerClass implements ITestListener, ISuiteListener {
 			ExtentLogger.fail(result.getThrowable().toString());
 		} catch (Exception e) {
 			e.printStackTrace();
+			System.out.println(e);
+			ExtentLogger.fail(result.getMethod().getMethodName() + " is failed", false);
+			ExtentLogger.fail(e.toString(),false);
 		}
 	}
 
@@ -83,6 +86,8 @@ public class ListernerClass implements ITestListener, ISuiteListener {
 			ExtentLogger.skip(result.getThrowable().toString());
 		} catch (Exception e) {
 			e.printStackTrace();
+			ExtentLogger.skip(result.getMethod().getMethodName() + " is skipped", false);
+			ExtentLogger.skip(e.toString(),false);
 		}
 	}
 

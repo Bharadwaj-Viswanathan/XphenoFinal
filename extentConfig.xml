@@ -32,8 +32,7 @@
     <!-- report name - displayed at top-nav -->
     <reportName>
 		<![CDATA[
-      <img src = 'reportlogo.jpg'/>
-      ]]>
+        <img src="reportlogo.jpg" onclick="window.open('https://artemis.xpheno.work/login', '_blank');"/>      ]]>
 		</reportName>
 
     <!-- timestamp format -->
