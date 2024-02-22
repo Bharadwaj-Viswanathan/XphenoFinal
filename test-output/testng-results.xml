@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="19" total="20" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-22T12:13:57 IST" name="Xpheno" finished-at="2024-02-22T12:14:23 IST" duration-ms="25656">
+  <suite started-at="2024-02-22T15:32:04 IST" name="Xpheno" finished-at="2024-02-22T15:33:38 IST" duration-ms="94271">
     <groups>
     </groups>
-    <test started-at="2024-02-22T12:13:57 IST" name="MyTestCase" finished-at="2024-02-22T12:14:23 IST" duration-ms="25656">
+    <test started-at="2024-02-22T15:32:04 IST" name="MyTestCase" finished-at="2024-02-22T15:33:38 IST" duration-ms="94271">
       <class name="com.testcases.XphenoSearch">
-        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@242b836]" started-at="2024-02-22T12:13:57 IST" name="invokeApp" finished-at="2024-02-22T12:14:04 IST" duration-ms="6600" status="PASS">
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:19 IST" duration-ms="15714" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,372 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeApp -->
-        <test-method signature="xphenoSearch1()[pri:0, instance:com.testcases.XphenoSearch@242b836]" started-at="2024-02-22T12:14:04 IST" name="xphenoSearch1" finished-at="2024-02-22T12:14:19 IST" duration-ms="15576" status="PASS">
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:19 IST" duration-ms="15360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:20 IST" duration-ms="16663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:19 IST" duration-ms="15192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:17 IST" duration-ms="13569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:20 IST" duration-ms="16811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:20 IST" duration-ms="16830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:21 IST" duration-ms="17094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:21 IST" duration-ms="17398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:21 IST" duration-ms="17353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:19 IST" duration-ms="15182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:21 IST" duration-ms="17184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:21 IST" duration-ms="17431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:21 IST" duration-ms="17272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:19 IST" duration-ms="15350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:19 IST" duration-ms="15201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:20 IST" duration-ms="16827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:21 IST" duration-ms="17345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:20 IST" duration-ms="16429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method is-config="true" signature="invokeApp(java.lang.String)[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:04 IST" name="invokeApp" finished-at="2024-02-22T15:32:20 IST" duration-ms="16259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApp -->
+        <test-method signature="xphenoSearch20()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:17 IST" name="xphenoSearch20" finished-at="2024-02-22T15:33:20 IST" duration-ms="62679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch20 -->
+        <test-method signature="xphenoSearch16()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:19 IST" name="xphenoSearch16" finished-at="2024-02-22T15:33:32 IST" duration-ms="73411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch16 -->
+        <test-method signature="xphenoSearch17()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:19 IST" name="xphenoSearch17" finished-at="2024-02-22T15:33:24 IST" duration-ms="65190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch17 -->
+        <test-method signature="xphenoSearch1()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:19 IST" name="xphenoSearch1" finished-at="2024-02-22T15:33:23 IST" duration-ms="63782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- xphenoSearch1 -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@242b836]" started-at="2024-02-22T12:14:23 IST" name="closebrowser" finished-at="2024-02-22T12:14:23 IST" duration-ms="0" status="PASS">
+        <test-method signature="xphenoSearch3()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:19 IST" name="xphenoSearch3" finished-at="2024-02-22T15:33:18 IST" duration-ms="58959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch3 -->
+        <test-method signature="xphenoSearch9()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:19 IST" name="xphenoSearch9" finished-at="2024-02-22T15:33:34 IST" duration-ms="75278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch9 -->
+        <test-method signature="xphenoSearch12()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:19 IST" name="xphenoSearch12" finished-at="2024-02-22T15:33:23 IST" duration-ms="63250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch12 -->
+        <test-method signature="xphenoSearch5()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:20 IST" name="xphenoSearch5" finished-at="2024-02-22T15:33:34 IST" duration-ms="74489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch5 -->
+        <test-method signature="xphenoSearch10()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:20 IST" name="xphenoSearch10" finished-at="2024-02-22T15:33:31 IST" duration-ms="70566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch10 -->
+        <test-method signature="xphenoSearch15()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:20 IST" name="xphenoSearch15" finished-at="2024-02-22T15:33:11 IST" duration-ms="50904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch15 -->
+        <test-method signature="xphenoSearch13()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:20 IST" name="xphenoSearch13" finished-at="2024-02-22T15:33:24 IST" duration-ms="63918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch13 -->
+        <test-method signature="xphenoSearch2()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:20 IST" name="xphenoSearch2" finished-at="2024-02-22T15:33:33 IST" duration-ms="72533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch2 -->
+        <test-method signature="xphenoSearch6()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:20 IST" name="xphenoSearch6" finished-at="2024-02-22T15:33:24 IST" duration-ms="63712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch6 -->
+        <test-method signature="xphenoSearch11()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:21 IST" name="xphenoSearch11" finished-at="2024-02-22T15:33:23 IST" duration-ms="61967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch11 -->
+        <test-method signature="xphenoSearch4()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:21 IST" name="xphenoSearch4" finished-at="2024-02-22T15:33:23 IST" duration-ms="61758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch4 -->
+        <test-method signature="xphenoSearch18()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:21 IST" name="xphenoSearch18" finished-at="2024-02-22T15:33:33 IST" duration-ms="72084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch18 -->
+        <test-method signature="xphenoSearch7()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:21 IST" name="xphenoSearch7" finished-at="2024-02-22T15:33:35 IST" duration-ms="73644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch7 -->
+        <test-method signature="xphenoSearch8()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:21 IST" name="xphenoSearch8" finished-at="2024-02-22T15:33:24 IST" duration-ms="62945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch8 -->
+        <test-method signature="xphenoSearch14()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:21 IST" name="xphenoSearch14" finished-at="2024-02-22T15:33:24 IST" duration-ms="63218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch14 -->
+        <test-method signature="xphenoSearch19()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:32:21 IST" name="xphenoSearch19" finished-at="2024-02-22T15:33:19 IST" duration-ms="57851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xphenoSearch19 -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:26 IST" name="closebrowser" finished-at="2024-02-22T15:33:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:26 IST" name="closebrowser" finished-at="2024-02-22T15:33:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:26 IST" name="closebrowser" finished-at="2024-02-22T15:33:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:26 IST" name="closebrowser" finished-at="2024-02-22T15:33:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:26 IST" name="closebrowser" finished-at="2024-02-22T15:33:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:26 IST" name="closebrowser" finished-at="2024-02-22T15:33:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:26 IST" name="closebrowser" finished-at="2024-02-22T15:33:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:26 IST" name="closebrowser" finished-at="2024-02-22T15:33:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:27 IST" name="closebrowser" finished-at="2024-02-22T15:33:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:27 IST" name="closebrowser" finished-at="2024-02-22T15:33:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:28 IST" name="closebrowser" finished-at="2024-02-22T15:33:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:28 IST" name="closebrowser" finished-at="2024-02-22T15:33:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:28 IST" name="closebrowser" finished-at="2024-02-22T15:33:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:34 IST" name="closebrowser" finished-at="2024-02-22T15:33:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:35 IST" name="closebrowser" finished-at="2024-02-22T15:33:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:36 IST" name="closebrowser" finished-at="2024-02-22T15:33:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:36 IST" name="closebrowser" finished-at="2024-02-22T15:33:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:37 IST" name="closebrowser" finished-at="2024-02-22T15:33:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:38 IST" name="closebrowser" finished-at="2024-02-22T15:33:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.testcases.XphenoSearch@534a5a98]" started-at="2024-02-22T15:33:38 IST" name="closebrowser" finished-at="2024-02-22T15:33:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->

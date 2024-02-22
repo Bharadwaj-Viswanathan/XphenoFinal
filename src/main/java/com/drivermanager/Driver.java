@@ -42,7 +42,7 @@ public class Driver{
 		if (browsername.equalsIgnoreCase("Chrome")) {
 			// Create instance of ChromeOptions Class
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--auto-open-devtools-for-tabs");
+			options.addArguments("--headless");
 			driver = new ChromeDriver(options);
 			DriverManager.setDriver(driver);
 			Capabilities caps = ((RemoteWebDriver) DriverManager.getDriver()).getCapabilities();
@@ -66,7 +66,7 @@ public class Driver{
 		System.out.println("Before Test Thread ID: "+Thread.currentThread().getId());
 		DriverManager.getDriver().manage().window().maximize();
 		DriverManager.getDriver().get(props.getProperty("Xpheno"));
-		DriverManager.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+		DriverManager.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 	}
 
 	@AfterMethod

@@ -11,6 +11,14 @@
       <class name="com.testcases.XphenoSearch">
         <methods>
           <include name="closebrowser"/>
+          <include name="xphenoSearch10"/>
+          <include name="xphenoSearch9"/>
+          <include name="xphenoSearch8"/>
+          <include name="xphenoSearch7"/>
+          <include name="xphenoSearch6"/>
+          <include name="xphenoSearch5"/>
+          <include name="xphenoSearch4"/>
+          <include name="xphenoSearch3"/>
           <include name="xphenoSearch1"/>
           <include name="invokeApp"/>
         </methods>
