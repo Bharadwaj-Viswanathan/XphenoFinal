@@ -8,7 +8,7 @@
 	</listeners>
 
 	<test name="MyTestCase">
-		<parameter name="browsername" value="chrome"></parameter>
+		<parameter name="browsername" value="Headless"></parameter>
 		<classes>
 			<class name="com.testcases.XphenoSearch" >
 				<methods>
