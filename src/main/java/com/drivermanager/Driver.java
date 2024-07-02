@@ -41,9 +41,7 @@ public class Driver{
 
 		if (browsername.equalsIgnoreCase("Chrome")) {
 			// Create instance of ChromeOptions Class
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--headless");
-			driver = new ChromeDriver(options);
+			driver = new ChromeDriver();
 			DriverManager.setDriver(driver);
 			Capabilities caps = ((RemoteWebDriver) DriverManager.getDriver()).getCapabilities();
 			browserName = caps.getBrowserName();
@@ -58,6 +56,14 @@ public class Driver{
 
 		} else if (browsername.equalsIgnoreCase("Edge")) {
 			driver = new EdgeDriver();
+			DriverManager.setDriver(driver);
+			Capabilities caps = ((RemoteWebDriver) DriverManager.getDriver()).getCapabilities();
+			browserName = caps.getBrowserName();
+			browserVersion = caps.getBrowserVersion();
+		} else if (browsername.equalsIgnoreCase("Headless")) {
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--headless");
+			driver = new ChromeDriver(options);
 			DriverManager.setDriver(driver);
 			Capabilities caps = ((RemoteWebDriver) DriverManager.getDriver()).getCapabilities();
 			browserName = caps.getBrowserName();

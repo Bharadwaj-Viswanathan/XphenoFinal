@@ -49,7 +49,7 @@ public class ExtentReport {
 	public static void flushing() throws IOException {
 		if (Objects.nonNull(extent)) {
 			extent.flush();
-			Desktop.getDesktop().browse(new File(FrameworkConstants.getExtentReportFilePath()).toURI());
+//			Desktop.getDesktop().browse(new File(FrameworkConstants.getExtentReportFilePath()).toURI());
 		}
 
 		
